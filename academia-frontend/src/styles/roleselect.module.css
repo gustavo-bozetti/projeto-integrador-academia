@@ -1,0 +1,83 @@
+.tela {
+  min-height: 100vh;
+  background: #0d1117;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 24px;
+}
+
+.cabecalho {
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.subtitulo {
+  color: #888;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  width: 260px;
+  background: #161b22;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 40px 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  border-color: #e94560;
+}
+
+.cardIcone {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.cardTitulo {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.cardDesc {
+  font-size: 13px;
+  color: #777;
+  line-height: 1.5;
+}
+
+.cardBotao {
+  width: 100%;
+  margin-top: 24px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #444;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.card:hover .cardBotao {
+  background: #e94560;
+  border-color: #e94560;
+  color: #fff;
+}

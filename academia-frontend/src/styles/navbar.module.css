@@ -1,0 +1,46 @@
+.nav {
+  background: #1a1a2e;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 24px;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  padding: 16px 0;
+  margin-right: 8px;
+}
+
+.linkBtn {
+  border: none;
+  background: none;
+  color: #999;
+  font-size: 14px;
+  padding: 16px 4px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.linkBtn:hover {
+  color: #ccc;
+}
+
+.ativo {
+  color: #e94560;
+  border-bottom: 2px solid #e94560;
+  font-weight: 600;
+}
+
+.btnSair {
+  margin-left: auto;
+  padding: 5px 14px;
+  background: none;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #999;
+  font-size: 13px;
+  cursor: pointer;
+}

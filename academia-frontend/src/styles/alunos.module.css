@@ -1,0 +1,220 @@
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.titulo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btnNovo {
+  background: #e94560;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.erro {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.form {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.formTitulo {
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.campo label {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.formBotoes {
+  display: flex;
+  gap: 8px;
+}
+
+.btnSalvar {
+  background: #e94560;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btnCancelar {
+  background: #555;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tabelaWrap {
+  border: 1px solid #ddd;
+  background: white;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.tabela {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabela th,
+.tabela td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.tabela th {
+  background: #f0f0f0;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.acoes {
+  gap: 5px;
+  display: flex;
+}
+
+.btnEditar {
+  background: #444;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btnPagar {
+  background: #2d6a4f;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnExcluir {
+  color: white;
+  background: #c0392b;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.badgePago {
+  background: #d4edda;
+  color: #155724;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.badgePendente {
+  background: #f8d7da;
+  color: #721c24;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.vazio {
+  color: #999;
+  padding: 24px;
+  text-align: center;
+}
+
+.erroCampo {
+  color: #c0392b;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  width: 320px;
+  padding: 24px;
+  border-radius: 6px;
+}
+
+.modalTitulo {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.modalAluno {
+  color: #555;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+.modalCampo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.modalCampo label {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.modalBotoes {
+  gap: 8px;
+  display: flex;
+}

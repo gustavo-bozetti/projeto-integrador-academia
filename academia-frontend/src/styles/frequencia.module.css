@@ -1,0 +1,97 @@
+.titulo {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.filtros {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.campofiltro {
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.campofiltro label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.campofiltro input {
+  width: auto;
+}
+
+.btnBuscar {
+  background: #e94560;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 36px;
+  align-self: flex-end;
+}
+
+.resumo {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.tabelaWrap {
+  background: white;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela th,
+.tabela td {
+  padding: 9px 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.tabela th {
+  font-size: 13px;
+  background: #f0f0f0;
+  font-weight: 600;
+}
+
+.vazio {
+  text-align: center;
+  padding: 24px;
+  color: #999;
+}
+
+.grafico {
+  border: 1px solid #ddd;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.graficoTitulo {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 14px;
+}

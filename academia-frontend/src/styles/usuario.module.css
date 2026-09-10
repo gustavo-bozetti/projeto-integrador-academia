@@ -1,0 +1,226 @@
+.tela {
+  min-height: 100vh;
+  background: #f4f4f4;
+  padding: 48px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card {
+  width: 100%;
+  max-width: 520px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  padding: 36px 40px;
+}
+
+.planoBadge {
+  background: #fff0f2;
+  color: #e94560;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.titulo {
+  font-size: 22px;
+  color: #1a1a2e;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.subtitulo {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+.campo {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.campo label {
+  font-size: 13px;
+  color: #333;
+  font-weight: 600;
+}
+
+.erroCampo {
+  font-size: 12px;
+  color: #e74c3c;
+}
+
+.botoes {
+  gap: 10px;
+  display: flex;
+  margin-top: 24px;
+}
+
+.btnPrincipal {
+  flex: 1;
+  background: #e94560;
+  color: white;
+  border: none;
+  padding: 11px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btnSecundario {
+  color: #555;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 11px 20px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.catracaTela {
+  min-height: 100vh;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+}
+
+.catracaCard {
+  width: 100%;
+  max-width: 480px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.catracaResultado {
+  padding: 40px 36px;
+  text-align: center;
+}
+
+.catracaResultadoOk {
+  background: #f0faf4;
+  border-bottom: 3px solid #27ae60;
+}
+
+.catracaResultadoNeg {
+  background: #fff5f5;
+  border-bottom: 3px solid #e74c3c;
+}
+
+.catracaLabel {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.catracaLabelOk { color: #27ae60; }
+
+.catracaLabelNeg { color: #e74c3c; }
+
+.catracaNome {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #1a1a2e;
+}
+
+.catracaInfo {
+  color: #666;
+  font-size: 14px;
+}
+
+.catracaMotivo {
+  color: #555;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.catracaRodape {
+  padding: 24px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btnTentar {
+  width: 100%;
+  padding: 11px;
+  background: #e94560;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btnInicio {
+  width: 100%;
+  padding: 11px;
+  background: white;
+  color: #555;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.passos {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.passo {
+  width: 28px;
+  height: 28px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: #bbb;
+}
+
+.passoAtivo {
+  background: #e94560;
+  border-color: #e94560;
+  color: white;
+}
+
+.passoConcluido {
+  background: #27ae60;
+  border-color: #27ae60;
+  color: white;
+}
+
+.passoLinha {
+  flex: 1;
+  max-width: 60px;
+  height: 2px;
+  background: #ddd;
+}
+
+.passoLinhaAtiva {
+  background: #27ae60;
+}

@@ -1,0 +1,112 @@
+.container {
+  gap: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.painelEsquerdo {
+  flex: 1;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.painelDireito {
+  background: white;
+  flex: 2;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.titulo {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  gap: 4px;
+}
+
+.campo label {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.btnRegistrar {
+  background: #e94560;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 9px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+.resultadoOk {
+  padding: 16px;
+  background: #d4edda;
+  color: #155724;
+  margin-top: 18px;
+  border-radius: 6px;
+}
+
+.resultadoNeg {
+  padding: 16px;
+  color: #721c24;
+  background: #f8d7da;
+  border-radius: 6px;
+  margin-top: 18px;
+}
+
+.resultadoLabel {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.resultadoNome { font-size: 14px; }
+
+.resultadoPlano {
+  font-size: 12px;
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela th,
+.tabela td {
+  padding: 9px 12px;
+  text-align: left;
+  font-size: 13px;
+  border-bottom: 1px solid #eee;
+}
+
+.tabela th {
+  font-weight: 600;
+  background: #f0f0f0;
+}
+
+.statusOk {
+  color: #155724;
+  font-weight: 500;
+}
+
+.statusNeg { color: #721c24; }
+
+.vazio {
+  color: #999;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,14 @@
+com\academia\controller\PlanoController.class
+com\academia\AcademiaApplication.class
+com\academia\repository\AlunoRepository.class
+com\academia\service\AcessoService.class
+com\academia\DataLoader.class
+com\academia\controller\AlunoController.class
+com\academia\service\AlunoService.class
+com\academia\model\Plano.class
+com\academia\controller\AcessoController.class
+com\academia\repository\AcessoRepository.class
+com\academia\config\WebConfig.class
+com\academia\model\Aluno.class
+com\academia\model\Acesso.class
+com\academia\model\PlanoInfo.class
