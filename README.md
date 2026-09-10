@@ -37,7 +37,7 @@ O projeto e dividido em dois modulos independentes:
 
 | Camada     | Tecnologia                          |
 |------------|-------------------------------------|
-| Backend    | Java 17, Spring Boot 3.2, Spring Data JPA |
+| Backend    | Java 17, Spring Boot 3.2, Spring JDBC (JdbcTemplate) |
 | Banco      | H2 (em memoria, reiniciado a cada execucao) |
 | Frontend   | React 18, Vite, Recharts            |
 | Estilizacao | CSS Modules                        |
@@ -135,8 +135,8 @@ academia-sistema/
     src/main/java/com/academia/
       config/          configuracao de CORS
       controller/      controladores REST
-      model/           entidades JPA e enums
-      repository/      interfaces de acesso ao banco
+      model/           POJOs e enums
+      repository/      classes de acesso ao banco com JdbcTemplate
       service/         regras de negocio
     src/main/resources/
       application.properties

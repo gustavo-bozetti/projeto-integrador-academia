@@ -22,6 +22,7 @@ public class DataLoader implements CommandLineRunner {
         carlos.setCpf("123.456.789-00");
         carlos.setEmail("carlos@email.com");
         carlos.setTelefone("11999990001");
+        carlos.setSexo("MASCULINO");
         carlos.setPlano(Plano.BASICO);
         carlos.setStatusPagamento("PAGO");
         carlos.setDataVencimento(LocalDate.now().plusDays(30));
@@ -34,6 +35,7 @@ public class DataLoader implements CommandLineRunner {
         ana.setCpf("987.654.321-00");
         ana.setEmail("ana@email.com");
         ana.setTelefone("11999990002");
+        ana.setSexo("FEMININO");
         ana.setPlano(Plano.INTERMEDIARIO);
         ana.setStatusPagamento("PENDENTE");
         ana.setDataMatricula(LocalDate.now().minusDays(10));
@@ -45,6 +47,7 @@ public class DataLoader implements CommandLineRunner {
         pedro.setCpf("111.222.333-44");
         pedro.setEmail("pedro@email.com");
         pedro.setTelefone("11999990003");
+        pedro.setSexo("MASCULINO");
         pedro.setPlano(Plano.PREMIUM);
         pedro.setStatusPagamento("PAGO");
         pedro.setDataVencimento(LocalDate.now().plusDays(15));
